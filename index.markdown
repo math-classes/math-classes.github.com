@@ -16,6 +16,10 @@ It is heavily based on Coq's new type classes in order to provide:
 structure inference, multiple inheritanc/sharing, convenient algebraic
 manipulation (e.g. rewriting) and idiomatic use of notations.
 
+Here is a SVG diagram showing all files and their dependencies with
+links to the coqdoc
+[dependencies](http://robbertkrebbers.nl/math-classes.svg).
+
 Here are two diagrams showing the main components of the algebraic
 hierarchy and the various orders in math classes.
 
