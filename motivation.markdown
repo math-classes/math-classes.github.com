@@ -40,7 +40,7 @@ Interfaces for algebraic structures
 Algebraic structures are expressed in terms of a number of carrier sets,
 a number of relations and operations, and a number of laws that the
 operations satisfy. One way of describing such a structure is by a
-_bundled representation_: one uses a dependently typed record that
+_bundled representation_: one uses a dependently-typed record that
 contains the carrier, operations and laws. For example a semigroup can
 be represented as follows. (The fields `sg_car` and `sg_proper` support
 our explicit handling of naive set theory in type theory.)
@@ -163,7 +163,7 @@ Example: ℕ
 ----------
 
 This approach to interfaces proved useful to formalize a standard
-algebraic hierarchy. For example,combined with category theory and
+algebraic hierarchy. For example, combined with category theory and
 universal algebra, ℕ and ℤ are represented as interfaces specifying an
 initial semiring and initial ring.
 

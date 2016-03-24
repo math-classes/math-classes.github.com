@@ -13,7 +13,7 @@ structures, such as
  - Operations, (shift, power, abs, ...)
 
 It is heavily based on Coq's new type classes in order to provide:
-structure inference, multiple inheritanc/sharing, convenient algebraic
+structure inference, multiple inheritance/sharing, convenient algebraic
 manipulation (e.g. rewriting) and idiomatic use of notations.
 
 Here is a SVG diagram showing all files and their dependencies with
