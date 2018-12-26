@@ -29,3 +29,11 @@ hierarchy and the various orders in math classes.
 Math classes is used in [C-CoRN](http://corn.cs.ru.nl) to implement high
 performance exact real number arithmetic.
 
+## Install
+Add the [Coq repository](coq.io/opam/):
+
+    opam repo add coq-released https://coq.inria.fr/opam/released
+
+and run:
+
+    opam install coq-math-classes
